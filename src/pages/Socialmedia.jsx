@@ -5,11 +5,11 @@ import Navigation from "../components/Navigation";
 const Socialmedia=()=>{
     return(
         <>
-            <h1>SocialMedia</h1>
+            <p>Add social links like linkedin, github etc</p>
             <form>
                 <input type="url" id="Social" name="Social" placeholder="Social Links*" required></input>
             </form>
-
+            <button id="add_social">Add Social</button>
             
             <Navigation prevPath="/social" nextPath="/final"/>
 

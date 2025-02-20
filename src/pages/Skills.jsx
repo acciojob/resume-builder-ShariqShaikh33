@@ -14,10 +14,13 @@ const Skills=()=>{
 
     return(
         <div>
-            <p>Skills</p>
+            <p>Add your Skills</p>
             <form>
                 <input type="text" id="skill" name="skill" placeholder="Skill*" onChange={handleChange} required></input>
             </form>
+
+            <button id="add_skill">Add Skills</button>
+            <button id="delete_skill">Delete</button>
             <Navigation prevPath="/education" nextPath="/projects"/>
 
         </div>
