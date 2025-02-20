@@ -2,8 +2,6 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = [{
     skill : ""
-},{
-    skill: ""
 }]
 
 export const skillSlice = createSlice({

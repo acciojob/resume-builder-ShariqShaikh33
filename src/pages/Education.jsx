@@ -21,7 +21,8 @@ const Education=()=>{
                 <input type="number" id="percentage" name="percentage" placeholder="Percentage*" onChange={handleChange} required></input>
                 
             </form>
-
+            <button id="add_education">Add Education</button>
+            <button id="delete">Delete</button>
             <Navigation prevPath="/" nextPath="/skills"/>
 
         </div>

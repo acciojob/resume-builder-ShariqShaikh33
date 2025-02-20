@@ -12,9 +12,9 @@ const Navigation=({prevPath, nextPath, type})=>{
 
     return (
         <div>
-            <button><Link to={prevPath}>Back</Link></button>
-            <button><Link to={nextPath}>Next</Link></button>
-            <button onClick={handleChange}>Save and Continue</button>
+            <button id="back"><Link to={prevPath}>Back</Link></button>
+            <button id="next"><Link to={nextPath}>Next</Link></button>
+            <button id="save_continue" onClick={handleChange}>Save and Continue</button>
         </div>
     )
 }

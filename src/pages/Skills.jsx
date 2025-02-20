@@ -16,7 +16,7 @@ const Skills=()=>{
         <div>
             <p>Skills</p>
             <form>
-                <input type="text" id="skill" name="skill" placeholder="Skill*" onChange={handleChange}></input>
+                <input type="text" id="skill" name="skill" placeholder="Skill*" onChange={handleChange} required></input>
             </form>
             <Navigation prevPath="/education" nextPath="/projects"/>
 
