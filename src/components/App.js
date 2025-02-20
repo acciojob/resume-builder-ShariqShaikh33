@@ -7,7 +7,6 @@ const App = () => {
   return (
     <div className="App">
         {/* Do not remove the main div */}
-        <div className="hero"><h1>Resume Generator</h1></div>
         
         <Layout />
     </div>

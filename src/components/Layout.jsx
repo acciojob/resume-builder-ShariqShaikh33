@@ -10,6 +10,7 @@ import FinalResume from "../pages/Final";
 const Layout=()=>{
     return (
         <div className="layout">
+          <h1>Resume Generator</h1>
             {/* Do not remove the main div */}
             <Routes>
               <Route path="/" element={<Profile/>}></Route>
